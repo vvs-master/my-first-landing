@@ -1,0 +1,258 @@
+.menu {
+    text-align: center;
+}
+
+.menu__link {
+    color: #000;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block
+}
+
+.menu__link:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 100, 100);
+}
+
+.slider {
+    background-image: url(img/polygons.png);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width:800px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.h {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.h:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 100, 100);
+}
+
+h1 {
+    margin: 0px 0px 40px 0px;
+}
+
+.name {
+    text-align: center;
+    margin: 60px auto 0 auto;
+    width: 800px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.text1 {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    margin: 0px auto 0 auto;
+}
+
+.name2 {
+    text-align: center;
+    margin: 10px auto 20px auto;
+}
+
+.paragraph {
+    color: rgb(114, 114, 114);
+}
+
+.card1_button {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    background-color: #055b73;
+    border-radius: 8px;
+    padding: 15px 0 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.card1_button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 100, 100);
+}
+
+.card1 {
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0 2px 5px grey;
+    width: 20%;
+    text-align: left;
+    margin: 0 10px;
+}
+
+.card1 img {
+    width: 100%;
+}
+
+.team {
+    text-align: center;
+}
+
+.price {
+    background-color: gray;
+    padding: 15px;
+}
+
+.price-h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.price-p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.price-li-head {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.price-ul {
+    width: 30%;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.price-li {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+}
+
+span {
+    font-weight: 600;
+}
+
+.super {
+    font-weight: 600;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.grey {
+    color: rgb(83, 83, 83);
+    background-color: rgb(255, 255, 255);
+}
+
+.buy {
+    background-color: rgb(216, 216, 216);
+}
+
+.buy-button {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+.height {
+    padding: 40px 0;
+    background-color: #055b73;
+}
+
+.contact {
+    background-color: rgb(211, 211, 211);
+    padding: 20px 20px 70px 20px;
+    text-align: center;
+}
+
+.contact-p {
+    text-align: center;
+}
+
+.contact-p2 {
+    background-image: url(img/address.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-size: 18px;
+    text-align:left;
+}
+
+.contact-p3 {
+    background-image: url(img/phone.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-size: 18px;
+    text-align:left;
+}
+
+.contact-p4 {
+    background-image: url(img/mail.png);
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    background-size: 18px;
+    text-align:left;
+}
+
+.buy-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 100, 100);
+}
+
+input {
+    width: 100%;
+    margin-top:15px;
+}
+
+.buy-button2 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top:30px;
+}
+
+.buy-button2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 100, 100);
+}
+
+.all {
+    background-color: #000;
+}
+
+.all-p {
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 0;
+}
+@media (max-width: 570px){
+    .name{
+        width:100%;
+    }
+    .slider{
+        width:100%;
+    }
+    .card1{
+        width:80%;
+        margin-bottom: 40px;
+    }
+    .price-ul{
+        width:100%;
+        padding:0;
+    }
+}
